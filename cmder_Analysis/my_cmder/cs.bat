@@ -13,5 +13,5 @@ SET CMDER_ROOT=%~dp0
 if exist "%~1" (
     start %~dp0/vendor/conemu-maximus5/ConEmu.exe /Icon "%CMDER_ROOT%\icons\cmder.ico" /Title Cmder /LoadCfgFile "%~1"
 ) else (
-    start %~dp0/vendor/conemu-maximus5/ConEmu.exe /Icon "%CMDER_ROOT%\icons\cmder.ico" /Title Cmder /LoadCfgFile "%CMDER_ROOT%\config\user-ConEmu.xml"
+    start %~dp0/vendor/conemu-maximus5/ConEmu.exe /Icon "%CMDER_ROOT%\icons\cmder.ico" /Title WDDD /LoadCfgFile "%CMDER_ROOT%\config\user-ConEmu.xml"
 )
